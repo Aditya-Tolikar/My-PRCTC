@@ -1,0 +1,18 @@
+Store input in array.
+
+arrindx = 0;
+temp = array[0];
+count1,count2 = 0;
+arrindx++;
+ans=0
+while(arrindx < size)
+{
+//code for decreasing order
+  if(temp == array[arrindx] +1) -> count1++;reset count2 everytime;
+  if((temp!= array[arrindx] +1)&&(count1>=3)) -> <find neg>; ans += neg;
+//Similar code for incr. order
+using count2  answer increases ans
+this one will reset count1 everytime.  
+  
+  arrindx++;
+}
