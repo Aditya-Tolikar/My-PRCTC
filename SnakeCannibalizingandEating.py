@@ -6,7 +6,7 @@ for _ in range(input()):
     array.sort()
     for _x in range(1, q):
         sn_size = input()
-        l, size = len(array), array[-1] + (len(array))
+
         for i in range(1, n):
             if array[i] >= sn_size:
                 index = i-1
